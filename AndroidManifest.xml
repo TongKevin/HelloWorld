@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kevin.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HelloworldActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OtherActivity"
+            android:label="@string/other" />
+        <activity
+            android:name=".CalcActivity"
+            android:label="@string/calc" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CalcResActivity"
+            android:label="@string/calcres" />
+    </application>
+
+</manifest>

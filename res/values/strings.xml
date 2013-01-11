@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloWorld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="other">otherActivity_string</string>
+	<string name="calc">计算器</string>
+	<string name="symbol">乘以</string>
+	<string name="calcBtn">计算结果</string>
+	<string name="calcres">结果</string>
+	<string name="exit">退出</string>
+	<string name="about">关于</string>
+</resources>
